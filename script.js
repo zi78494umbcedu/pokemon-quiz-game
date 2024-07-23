@@ -127,7 +127,7 @@ function checkAnswer(isCorrect, event) {
   setTimeout(() => {
     showLoading = true;
     loadingQuestionWithOptions();
-  }, 1000);
+  }, 0);
 }
 
 //11)initial load
